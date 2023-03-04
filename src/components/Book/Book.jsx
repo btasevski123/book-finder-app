@@ -2,11 +2,11 @@ import "./Book.scss";
 import { ImBook } from "react-icons/im";
 import { Link } from "react-router-dom";
 
-export const Book = ({ title, author, genre }) => {
+export const Book = ({ id, title, author, genre }) => {
   return (
     <div className="book-card">
       <div className="book-card__header">
-        <ImBook className="book-card__icon" />
+        <ImBook className="book-card__header--icon" />
         <h3>{title}</h3>
       </div>
       <div className="book-card__body">
@@ -17,7 +17,7 @@ export const Book = ({ title, author, genre }) => {
           <strong>Genre:</strong> {genre}
         </p>
 
-        <Link to={"/about"} className="book-card__button">
+        <Link to={`/about/${id}`} className="book-card__body--button">
           View More
         </Link>
       </div>
