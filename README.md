@@ -1,9 +1,9 @@
---Book-Finder React App
+--Book-Finder React App:
 This application built with React allows users to search for books by title, author or genre through a single search bar.
 Еach book card has a button that redirects to an about page where you can see more information about the selected book.
 The design of Book-Finder App is made using SASS(SCSS).
 
---Installation
+--Installation:
 To run this app locally, you'll need to have Node.js and npm installed on your pc. Once you have those installed, follow these steps:
 1.Clone this repository to your pc.
 2.Navigate to the root directory of the app.
