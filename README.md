@@ -1,9 +1,9 @@
 
 ### Book-Finder-App
 
-##### This application built with React allows users to search for books by title, author or genre through a single search bar.
-##### Еach book card has a button that redirects to an about page where you can see more information about the selected book.
-##### The design of Book-Finder-App is made using SASS(SCSS).
+ This application built with React allows users to search for books by title, author or genre through a single search bar.
+ Еach book card has a button that redirects to an about page where you can see more information about the selected book.
+ The design of Book-Finder-App is made using SASS(SCSS).
 
 #### Instalation
 
